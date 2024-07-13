@@ -496,7 +496,20 @@ getDirProps(UBiDi *pBiDi) {
     for( /* i=0 above */ ; i<originalLength; ) {
         /* i is incremented by U16_NEXT */
         U16_NEXT(text, i, originalLength, uchar);
-        flags|=DIRPROP_FLAG(dirProp=(DirProp)ubidi_getCustomizedClass(pBiDi, uchar));
+        //flags|=DIRPROP_FLAG(dirProp=(DirProp)ubidi_getCustomizedClass(pBiDi, uchar));
+	/*
+	 *[feature][alisa.li][2015/08/11][Font]
+	 *Plus sign treat as number rule; NIS sign treat as arabic char rule.
+	*/
+	if(uchar == 0x2b) {
+	    dirProp = EN;
+	} else if (uchar == 0x20AA){
+	    dirProp = AL;
+	} else {
+	    dirProp= (DirProp)ubidi_getCustomizedClass(pBiDi, uchar);
+	}
+	flags|=DIRPROP_FLAG(dirProp);
+	//[feature][alisa.li][2015/08/11][Font]
         dirProps[i-1]=dirProp;
         if(uchar>0xffff) {  /* set the lead surrogate's property to BN */
             flags|=DIRPROP_FLAG(BN);

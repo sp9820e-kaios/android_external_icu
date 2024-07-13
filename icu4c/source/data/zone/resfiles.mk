@@ -56,7 +56,7 @@ ZONE_SOURCE = af.txt agq.txt ak.txt am.txt\
  az_Latn.txt bas.txt be.txt bem.txt bez.txt\
  bg.txt bm.txt bm_Latn.txt bn.txt bo.txt\
  br.txt brx.txt bs.txt bs_Cyrl.txt bs_Latn.txt\
- ca.txt cgg.txt chr.txt cs.txt cy.txt\
+ ca.txt ceb.txt cgg.txt chr.txt cs.txt cy.txt\
  da.txt dav.txt de.txt dje.txt dsb.txt\
  dua.txt dyo.txt dz.txt ebu.txt ee.txt\
  el.txt en.txt en_001.txt en_150.txt en_AG.txt\

@@ -57,7 +57,7 @@ CURR_SOURCE = af.txt af_NA.txt agq.txt ak.txt\
  az.txt az_Cyrl.txt az_Latn.txt bas.txt be.txt\
  bem.txt bez.txt bg.txt bm.txt bm_Latn.txt\
  bn.txt bo.txt bo_IN.txt br.txt brx.txt\
- bs.txt bs_Cyrl.txt bs_Latn.txt ca.txt ca_FR.txt\
+ bs.txt bs_Cyrl.txt bs_Latn.txt ca.txt ca_FR.txt ceb.txt \
  cgg.txt chr.txt cs.txt cy.txt da.txt\
  dav.txt de.txt de_CH.txt de_LU.txt dje.txt\
  dsb.txt dua.txt dyo.txt dz.txt ebu.txt\

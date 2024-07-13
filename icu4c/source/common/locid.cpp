@@ -482,6 +482,12 @@ Locale& Locale::init(const char* localeID, UBool canonicalize)
     if (baseName != fullName) {
         uprv_free(baseName);
     }
+    if (localeID != NULL) {
+        if (strcmp(localeID,"ce") == 0)
+            localeID = "ceb";
+        if (strcmp(localeID, "ce-PH") == 0)
+            localeID = "ceb-PH";
+    }
     baseName = NULL;
     if(fullName != fullNameBuffer) {
         uprv_free(fullName);

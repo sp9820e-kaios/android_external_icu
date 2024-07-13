@@ -91,6 +91,8 @@
 		<include locales="ca_ES"/>
 		<include locales="ca_FR"/>
 		<include locales="ca_IT"/>
+                <include locales="ceb"/>
+		<include locales="ceb_PH"/>
 		<include locales="cgg"/>
 		<include locales="cgg_UG"/>
 		<include locales="chr"/>

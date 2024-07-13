@@ -60,7 +60,7 @@ GENRB_SOURCE = af.txt af_NA.txt af_ZA.txt agq.txt\
  bo_CN.txt bo_IN.txt br.txt br_FR.txt brx.txt\
  brx_IN.txt bs.txt bs_Cyrl.txt bs_Cyrl_BA.txt bs_Latn.txt\
  bs_Latn_BA.txt ca.txt ca_AD.txt ca_ES.txt ca_FR.txt\
- ca_IT.txt cgg.txt cgg_UG.txt chr.txt chr_US.txt\
+ ca_IT.txt ceb.txt ceb_PH.txt cgg.txt cgg_UG.txt chr.txt chr_US.txt\
  cs.txt cs_CZ.txt cy.txt cy_GB.txt da.txt\
  da_DK.txt da_GL.txt dav.txt dav_KE.txt de.txt\
  de_AT.txt de_BE.txt de_CH.txt de_DE.txt de_LI.txt\
